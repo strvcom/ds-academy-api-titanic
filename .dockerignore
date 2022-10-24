@@ -1,0 +1,7 @@
+# Content to ignore when building docker image
+.git
+.gitignore
+README.md
+titanic/data.csv
+titanic/train_model.ipynb
+venv

@@ -37,6 +37,7 @@ The repository is ready to be deployed to Heroku without any extra hassle.
 For deployment, follow these steps.
 
 1. Review the `heroku.yml` file to see configuration for Heroku.
+1. Create your user profile on [Heroku](https://www.heroku.com).
 1. [Install Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and
 log in to your Heroku account: `heroku login`.
 1. [Create the app on Heroku](https://devcenter.heroku.com/articles/creating-apps).

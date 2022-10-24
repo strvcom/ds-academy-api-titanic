@@ -1,4 +1,4 @@
-## :rocket: api-titanic-survival-model
+## :rocket: ds-academy-api-titanic
 
 Titanic survival model API.
 Written in [FastAPI](https://fastapi.tiangolo.com/).
@@ -16,7 +16,8 @@ Deployed on [Heroku](https://www.heroku.com/).
 1. Intall requirements from `requirements-dev.txt`.
 
 > The only difference between `requirements-dev.txt` and `requirements.txt` is
-that in `requirements-dev.txt` there is `notebook` extra dependency.
+that in `requirements-dev.txt` there are two extra dependencies: `notebook`,
+and `streamlit`.
 
 ### Docker for Heroku deployment
 
@@ -25,14 +26,12 @@ that in `requirements-dev.txt` there is `notebook` extra dependency.
 on our system.
 
 1. In project root directory, build the docker image
-`docker build -t api-titanic-survival-model:latest .`
+`docker build -t ds-academy-api-titanic:latest .`
 1. Run the docker container with web server running inside:
-`docker run -i -e "PORT=8000" -p 8000:8000 api-titanic-survival-model:latest`
+`docker run -i -e "PORT=8000" -p 8000:8000 ds-academy-api-titanic:latest`
 1. In logs, you should see a local URL address with running API.
 
-### Deployment
-
-### Heroku
+### Deployment to Heroku
 
 The repository is ready to be deployed to Heroku without any extra hassle.
 For deployment, follow these steps.
